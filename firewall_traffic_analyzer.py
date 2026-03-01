@@ -25,7 +25,7 @@ def firewall():
     data_size = int(input('Enter the data transfer size in megabytes (MB): '))
 
     print()
-    print('FIREWALL LOG')
+    print('FIREWALL LOG:')
     print(f'Port: {port_num}, Transfer Size: {data_size} MB')
 
     if (port_num == 22 or port_num == 3389) and data_size >= 100:
