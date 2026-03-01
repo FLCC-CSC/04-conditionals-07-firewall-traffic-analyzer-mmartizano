@@ -35,7 +35,7 @@ def firewall():
     elif port_num == 443:
         risk = 'LOW RISK: Secure encrypted transfer detected.'
     else:
-        risk = 'UNKNOWN: Unrecognized traffice pattern'
+        risk = 'UNKNOWN: Unrecognized traffic pattern.'
     
     print(f'Risk Assessment: {risk}')
     print('------------------------')
